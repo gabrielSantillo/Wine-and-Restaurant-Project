@@ -18,7 +18,7 @@ img {
 #page-header {
     display: grid;
     grid-auto-flow: row;
-    background-image: url(https://images.pexels.com/photos/3218467/pexels-photo-3218467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(/img/dough.jpeg);
     background-position: center;
     background-size: cover;
     color: whitesmoke;
@@ -104,7 +104,7 @@ img {
 }
 
 #main-square-first-picture {
-    background-image: url(https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(/img/brownie.jpg);
     background-position: center;
     background-size: cover;
     display: grid;
@@ -151,7 +151,7 @@ img {
 
     almost all
     */ 
-    background-image: url(/img/brownie.jpg);
+    background-image: url(/img/granola.jpeg);
     background-position: center;
     background-size: cover;
     display: grid;
@@ -160,7 +160,7 @@ img {
 }
 
 #main-square-third-picture {
-    background-image: url(https://images.pexels.com/photos/3278001/pexels-photo-3278001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(/img/granola2.jpeg);
     background-position: center;
     background-size: cover;
     display: grid;
