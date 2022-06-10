@@ -317,6 +317,9 @@ img {
 
 #main-section-plates-second-pictures {
     background-image: url(/img/pie.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
 }
 
 #main-section-plates-third-pictures {
@@ -527,6 +530,10 @@ background-image: url(/img/pizza.jpeg);
         margin-left: 5vw;
     }
 
+    #main-events-button-read-more {
+        cursor: pointer;
+    }
+
     #main-section-img-background {
         height: 70vh;
     }
@@ -572,6 +579,53 @@ background-image: url(/img/pizza.jpeg);
         display: none;
     }
 
+    #main-section-plates-desktop-layout {
+        display: grid;
+        grid-auto-flow: column;
+        margin-top: 8vh;
+    }
 
+    #main-section-plates-first-pictures {
+        margin-top: 0;
+        height: 75vh;
+    }
+
+    #main-section-plates-second-pictures-div {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    #main-section-icon {
+        display: grid;
+        grid-auto-flow: column;
+        padding: 0 20vw;
+    }
+
+    #main-section-circle-div {
+        height: 150px;
+        width: 150px;        
+        border-radius: 75px;
+        /*How to make you centralize*/
+    }
+
+    #main-section-contact-us>p {
+        font-size: 1rem;
+    }
+
+    #main-section-contact-us>h1 {
+        font-size: 2.2rem;
+    }
+
+    #main-section-submit {
+        place-items: center;
+    }
+
+    .main-section-submit-data {
+        width: 350px;
+    }
+
+    #main-section-submit-button>button {
+        cursor: pointer;
+    }
 }
 
