@@ -257,9 +257,19 @@ img {
 }
 
 #main-section-delicious-from-chef {
+    text-align: center;
+}
+
+#main-section-menu-first-column {
     display: grid;
     text-align: center;
-    row-gap: 8px;
+    row-gap: 15px;
+}
+
+#main-section-menu-second-column {
+    display: grid;
+    text-align: center;
+    row-gap: 15px;
 }
 
 #main-section-delicious-from-chef>p {
@@ -296,6 +306,10 @@ img {
     font-size: .8rem;
 }
 
+#main-section-plates-desktop-layout {
+    display: none;
+}
+
 #main-section-plates-first-pictures {
     background-image: url(/img/wine.jpg);
     margin-top: 8vh;
@@ -303,9 +317,6 @@ img {
 
 #main-section-plates-second-pictures {
     background-image: url(/img/pie.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 35vh;
 }
 
 #main-section-plates-third-pictures {
@@ -492,6 +503,73 @@ background-image: url(/img/pizza.jpeg);
 
     #main-events {
         margin-top: 70px;
+    }
+
+    #main-events-p {
+        font-size: 1.2rem;
+    }
+
+    #main-events-h2 {
+        font-size: 3rem;
+    }
+
+    #main-events-column {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .main-events-h2 {
+        font-size: 3rem;
+    }
+
+    .main-events-second-p {
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+
+    #main-section-img-background {
+        height: 70vh;
+    }
+
+    #main-section-img-background-first-p {
+        letter-spacing: 2px;
+        margin-top: 25vh;
+        text-align: start;
+        margin-left: 20px;
+    }
+
+    #main-section-img-background-second-p {
+        font-size: 3rem;
+    }
+
+    #main-section-delicious-from-chef>p {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-top: 30px;
+    }
+
+    #main-section-delicious-from-chef>h1 {
+        font-size: 3rem;
+    }
+
+    #main-section-menu {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .main-section-menu-div {
+        display: grid;
+        grid-auto-flow: row;
+        row-gap: 10px;
+    }
+
+    .main-section-menu-div-plate-name {
+        margin-top: 30px;
+        letter-spacing: 2px;
+    }
+
+    #main-section-plates-mobile-layout {
+        display: none;
     }
 
 
