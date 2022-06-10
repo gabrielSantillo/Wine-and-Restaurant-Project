@@ -293,3 +293,140 @@ img {
 .main-section-menu-div-plate-ingredients {
     font-size: .8rem;
 }
+
+#main-section-plates-first-pictures {
+    background-image: url(/img/wine.jpg);
+    margin-top: 8vh;
+}
+
+#main-section-plates-second-pictures {
+    background-image: url(/img/pie.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+}
+
+#main-section-plates-third-pictures {
+background-image: url(/img/pizza.jpeg);
+}
+
+#main-section-plates-fourth-pictures {
+    background-image: url(/img/brownie.jpg);
+    }
+
+.main-section-plates-pictures {
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+}
+
+#main-section-icon {
+    display: grid;
+    text-align: center;
+    place-items: center;
+    margin-top: 10vh;
+    row-gap: 40px;
+}
+
+#main-section-icon>div>img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.main-section-icon-div {
+    display: grid;
+    row-gap: 8px;
+    place-items: center;
+}
+
+.main-section-icon-div>p {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+#main-section-circle-div {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    place-items: center;
+    display: grid;
+    text-align: center;
+    color: whitesmoke;
+    font-size: .6rem;
+    letter-spacing: 2px;
+    margin-bottom: 10vh;
+}
+
+#main-section-contact-us {
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#main-section-contact-us>p {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+#main-section-contact-us>h1 {
+    font-size: 1.6rem;
+}
+
+#main-section-submit {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5px;
+    margin: 0px 5vw;
+}
+
+.main-section-submit-data {
+    padding: 8px;
+    width: 180px;
+}
+
+#main-section-submit-div-terms {
+    font-size: 0.7rem;
+}
+
+#main-section-submit-div-terms>a {
+    text-decoration: none;
+    color: rgb(128, 128, 194);
+}
+
+#main-section-submit-button {
+    margin: 5vh 0px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 8vh;
+    
+}
+
+#main-section-submit-button>button {
+    font-size: .7rem;
+    padding: 8px 25px;
+    background-color: white;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+#page-footer {
+    background-color: rgb(41, 41, 41);
+    display: grid;
+    text-align: center;
+    color: whitesmoke;
+    height: 150px;
+    padding: 40px 10vw 0px;
+    font-size: 0.7rem;
+}
+
+#page-footer-projects {
+    display: grid;
+}
+
+#page-footer-projects>a {
+    text-decoration: none;
+    color: rgb(128, 128, 194);
+}
