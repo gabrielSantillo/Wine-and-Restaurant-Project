@@ -54,8 +54,6 @@ img {
     padding-right: 25vw; 
     text-align: center;
     text-shadow: 1px 1px 1px black;
-    /*Why using aligh and jusitfy to center its not working?*/
-     /*How to make the h1 look like the original*/
     margin-bottom: 2vh;
 }
 
@@ -101,6 +99,10 @@ img {
 
 #page-main-first-section-second-p>b {
     font-family: 'Open Sans';
+}
+
+#page-main-read-more-desktop-layout {
+    display: none;
 }
 
 #main-square-first-picture {
@@ -430,3 +432,68 @@ background-image: url(/img/pizza.jpeg);
     text-decoration: none;
     color: rgb(128, 128, 194);
 }
+
+@media only screen and (min-width: 1080px) {
+    #page-header {
+        background-position: 50% 25%;
+    }
+
+    #page-header-icon-menu {
+        margin-top: 20px;
+    }
+
+    .header-icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    #header-food-logo {
+        width: 359px;
+        height: 229px;
+    }
+    
+    #page-header-second-section>h1 {
+    font-size: 3rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    }
+
+    #page-header-second-section>p {
+        padding-left: 25vw;
+        padding-right: 25vw;
+    }
+
+    #page-header-second-section>img {
+        margin-bottom: 20px;
+    }
+
+    #page-main-first-section-first-p {
+        font-size: 1rem;
+    }
+
+    #page-main-first-section-second-p {
+        font-size: 2rem;
+        padding: 0px 22vw;
+    }
+
+    #page-main-read-more-mobile-layout {
+        display: none;
+    }
+
+    #page-main-read-more-desktop-layout {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .page-main-read-more-column {
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    #main-events {
+        margin-top: 70px;
+    }
+
+
+}
+
