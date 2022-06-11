@@ -333,7 +333,7 @@ background-image: url(/img/pizza.jpeg);
 .main-section-plates-pictures {
     background-position: center;
     background-size: cover;
-    height: 55vh;
+    /*height: 55vh;*/
 }
 
 #main-section-icon {
@@ -583,16 +583,21 @@ background-image: url(/img/pizza.jpeg);
         display: grid;
         grid-auto-flow: column;
         margin-top: 8vh;
+        height: 400px;
     }
 
     #main-section-plates-first-pictures {
         margin-top: 0;
-        height: 75vh;
     }
 
     #main-section-plates-second-pictures-div {
         display: grid;
         grid-auto-flow: row;
+    }
+
+    #main-section-plates-second-pictures-div-two {
+        display: grid;
+        grid-auto-flow: column;
     }
 
     #main-section-icon {
