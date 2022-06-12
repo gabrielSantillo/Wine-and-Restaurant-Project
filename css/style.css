@@ -333,7 +333,7 @@ background-image: url(/img/pizza.jpeg);
 .main-section-plates-pictures {
     background-position: center;
     background-size: cover;
-    /*height: 55vh;*/
+    height: 55vh;
 }
 
 #main-section-icon {
@@ -589,10 +589,17 @@ background-image: url(/img/pizza.jpeg);
         grid-auto-flow: column;
         margin-top: 8vh;
         height: 400px;
+        margin-bottom: 200px;
     }
 
     #main-section-plates-first-pictures {
         margin-top: 0;
+        background-size: cover;
+    }
+
+    #main-section-plates-second-column {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
 
     #main-section-plates-second-pictures-div {
@@ -605,16 +612,26 @@ background-image: url(/img/pizza.jpeg);
         grid-auto-flow: column;
     }
 
+    #main-section-plates-third-pictures {
+        background-size: cover;
+    }
+
+    #main-section-plates-fourth-pictures {
+        background-size: cover;
+    }
+
     #main-section-icon {
         display: grid;
         grid-auto-flow: column;
         padding: 0 20vw;
+        place-items: center;
     }
 
     #main-section-circle-div {
         height: 150px;
         width: 150px;        
         border-radius: 75px;
+        justify-self: center;
         /*How to make you centralize*/
     }
 
